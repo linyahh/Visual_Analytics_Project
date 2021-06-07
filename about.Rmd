@@ -1,0 +1,11 @@
+---
+title: "About this blog"
+description: |
+  ISSS608 Visual Analytics Project 
+  
+  G1 - Group 9
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
