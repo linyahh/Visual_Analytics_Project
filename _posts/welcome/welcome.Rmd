@@ -1,13 +1,11 @@
 ---
-title: "Welcome to My Blog"
+title: "Geo"
 description: |
   Welcome to our new blog, My Blog. We hope you enjoy 
   reading what we have to say!
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
+  - name: Jiahui Lim, Linya Huang, Ying Zhang 
+    affiliation: School of Computing and Information, Singapore Management University
 date: 06-06-2021
 output:
   distill::distill_article:

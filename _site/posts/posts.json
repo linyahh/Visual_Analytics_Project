@@ -1,19 +1,19 @@
 [
   {
     "path": "posts/welcome/",
-    "title": "Welcome to My Blog",
+    "title": "Geo",
     "description": "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we have to say!",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Jiahui Lim, Linya Huang, Ying Zhang",
+        "url": {}
       }
     ],
     "date": "2021-06-06",
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-06-06T23:26:31+08:00",
-    "input_file": {}
+    "last_modified": "2021-06-11T23:36:49+08:00",
+    "input_file": "welcome.knit.md"
   }
 ]
