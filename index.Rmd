@@ -1,5 +1,5 @@
 ---
-title: "My Blog"
+title: "Group 9 Project - Vast Challenge 2021"
 site: distill::distill_website
 listing: posts
 ---
