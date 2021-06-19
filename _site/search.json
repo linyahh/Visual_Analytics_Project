@@ -3,17 +3,17 @@
     {
       "path": "about.html",
       "title": "About this blog",
-      "description": "ISSS608 Visual Analytics Project \n\nG1 - Group 9",
+      "description": "ISSS608 Visual Analytics Project \n\nG1 - Group 9 (Huang Linya, Zhang Ying, Lim Jiahui)",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-19T19:27:25+08:00"
+      "last_modified": "2021-06-20T00:46:41+08:00"
     },
     {
       "path": "index.html",
       "title": "Group 9 Project - Vast Challenge 2021",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-19T19:28:17+08:00"
+      "last_modified": "2021-06-20T00:40:41+08:00"
     }
   ],
   "collections": ["posts/posts.json"]

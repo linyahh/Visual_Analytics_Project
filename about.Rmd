@@ -3,7 +3,7 @@ title: "About this blog"
 description: |
   ISSS608 Visual Analytics Project 
   
-  G1 - Group 9
+  G1 - Group 9 (Huang Linya, Zhang Ying, Lim Jiahui)
 ---
 
 ```{r setup, include=FALSE}

@@ -83,7 +83,7 @@ Additionally, the topics and sentiment of words can be further analyzed using **
 
 ### 4. Visualizing from combination of Texts and Geospatial
 
-As we wish to further visualize how the call center, microblog and historical news reports relate, our approach will be split into 2 parts: one for geospatial mapping with words and the other solely on text analysis.
+As we wish to further visualize how the call center, microblog and historical news reports relate, our approach will be split into 3 parts: one for geospatial mapping with words, the other solely on text analysis and lastly some exploratory analysis.
 
 - In the **first storyboard**, we would like to determine how the hotspots’ location received by the call center are aligned with the top trending word(s) posted via social media (mapped using geospatial data). Filters will also be added to display the hotspots’ location and trending words during the selected sync-ed timeframe. From here, we can determine if the call received by the call center is (1) a false alarm or (2) an actual emergency happening. 
 
