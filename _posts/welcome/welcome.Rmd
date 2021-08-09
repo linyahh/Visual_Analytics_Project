@@ -1,11 +1,11 @@
 ---
-title: "Proposal"
+title: "Visual Dashboard for Real-Time Analysis of Social Media"
 description: |
-  Our proposed steps and approach to tackle the Vast Challenge 2021 mini-challenges.
+  Our proposed steps and approach to tackle the text analytics of real-time social media based on data from Vast Challenge 2021 mini-challenges3.
 author:
   - name: Jiahui Lim, Linya Huang, Ying Zhang 
     affiliation: School of Computing and Information, Singapore Management University
-date: 06-18-2021
+date: 08-15-2021
 output:
   distill::distill_article:
     toc: true
@@ -60,16 +60,18 @@ For this project, we will be using **both text and visual analytics approach** t
 
 ### 1. Data Preparation
 
-As the data (MC1 + MC3) given is unstructured, we will perform text pre-processing techniques to filter out and re-organize the textual data based on null values, manipulation of strings (lowercase, symbols, numbers), tokenization and stemming. This is to ensure all textual data are standardized for easier analysis.
-
-Next, as not all textual data given are useful, we will have to sieve those important ones out and discard the rest. As such, **text classification** methods will be used to label the blog posts and news articles if its (1) Junk or (2) Not Junk. From there, we will discard those labelled as (1) and focus on analyzing those with (2).
+As the data given is unstructured, we will perform text pre-processing techniques to filter out and re-organize the textual data based on null values, manipulation of strings (lowercase, symbols, numbers), tokenization and stemming. This is to ensure all textual data are standardized for easier analysis.
 
 
 ### 2. Understanding Historical News Reports and Microblog Data
 
-From the classified information, we can first perform **topic modeling** techniques to understand what the top trending topics are generated from the data. These topics are words that can be in the form of unigram or bigrams. For each topic, we will also discover what are the top 10 words (or more) related to the topic. Then, we will move towards understanding the meaning of these words, aka **sentiment analysis**. The tokenized words will be classified by its sentiment; positive or negative. This will thus allow us to recognize words that might indicate danger.
+We will first provide **Exploratory Data Analysis (EDA) and Time-series Analysis** by basic statistical and world cloud visualization, which will provide a overview of content being discussed in microblog/call center, and help to highlight past events that occurred at certain areas, which we will be able to relate to real-time monitoring.
 
-Additionally, the topics and sentiment of words can be further analyzed using **Exploratory Data Analysis (EDA) and Time-series Analysis**. This will allow us to better comprehend how sentiment and topics changes over time, or when are these topics trending the most. Hence, it is very relevant as we will be able to detect certain patterns and better evaluate the risks levels for further actions by emergency dispatches. EDA and time-series can also help to highlight past events that occurred at certain areas, which we will be able to relate to real-time monitoring.
+Additionally, we will then perform **Topic Modeling** techniques by Latent Dirichlet Allocation algorithm to understand topics generated from text data. These topics are words that can be in the form of unigram. To analysis the modeling results, user can select top n words to discover topics, understand topic distribution during the time period in the community and user engagement of each topic.
+
+Then,a **Network Analysis** will be performed based on the re-tweet relationship between users to discover influential authors and unimportant users. We will also analysis the degree of the network and its distribution to help users explore and identify social relationships, interactions, and communications 
+
+Moreover, we plan to apply visualization techiniques of **Hexagon Binning Map** discussed in research paper (Kam,BARSHIKAR,TAN 2012) to show real-time location-stamped text distribution in the community. By applying color with gradient, users can quickly locate the hexagon districts with the most number of posts and subsequently estimate the risk level in specific areas.
 
 
 ### 3. Storyboard & Visualizations for R Shiny
@@ -79,6 +81,8 @@ Additionally, the topics and sentiment of words can be further analyzed using **
 ![Storyboard 2](images/SB2.png)
 
 ![Storyboard 3](images/SB3.png)
+
+![Storyboard 4](images/SB3.png)
 
 
 ### 4. Visualizing from combination of Texts and Geospatial
@@ -144,8 +148,6 @@ This is our overall plan towards working on the project and fulfilling the objec
 
 - [Visual Analytics Benchmark Repository](http://visualdata.wustl.edu/varepository/VAST%20Challenge%202014/challenges/MC2%20-%20Patterns%20of%20Life%20Analysis/)
 
-
-
-
+- KAM, Tin Seong; BARSHIKAR, Ketan; and TAN, Shaun Jun Hua. DIVAD: [A Dynamic and Interactive Visual Analytical Dashboard for Exploring and Analyzing Transport Data](https://ink.library.smu.edu.sg/sis_research/1761/). (2012). International Journal of Computer, Electrical, Automation, Control and Information Engineering. 6, (11), 834-1353. Research Collection School Of Computing and Information Systems.
 
 
